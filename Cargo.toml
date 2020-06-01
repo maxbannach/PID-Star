@@ -1,0 +1,10 @@
+[package]
+name = "pid-star"
+version = "0.1.0"
+authors = ["bannach <bannach@tcs.uni-luebeck.de>"]
+edition = "2018"
+
+[dependencies]
+bit-set = "0.5.1"
+bimap = "0.4.0"
+fluid = { git = "https://github.com/maxbannach/Fluid", tag = "v1.0" }
