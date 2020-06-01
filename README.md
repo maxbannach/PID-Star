@@ -1,4 +1,7 @@
 # PID-Star
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3871800.svg)](https://doi.org/10.5281/zenodo.3871800)
+
 This program computes for a given graph *G* a tree *T* of minimum depth such that *G* is contained in the closure of *T,* that is, an optimal [treedepth decomposition](https://en.wikipedia.org/wiki/Tree-depth) of *G.*
 
 The tool was developed by *Max Bannach, Sebastian Berndt, Martin Schuster* and *Marcel Wienöbst* as submission for the exact track of [PACE 2020](https://pacechallenge.org/2020/). As such, the input format and I/O behavior is as specified by the PACE.
