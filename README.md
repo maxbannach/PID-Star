@@ -15,8 +15,7 @@ The core algorithm is the *positive-instance driven* (PID) dynamic programing fr
 The following open source [crates](https://crates.io) are used. They are automatically downloaded and compiled when the tool is build using *Cargo.*
 - [bit-set](https://crates.io/crates/bit-set)
 - [bimap](https://crates.io/crates/bimap)
-
-We also use our heuristic [Fluid](https://github.com/maxbannach/Fluid/) to compute upper bounds. The heuristic is open source and was submitted by us to the heuristic track of the PACE. Cargo will automatically download and compile Fluid from the corresponding repository. 
+- [rand](https://crates.io/crates/rand)
 
 # Build
 PID-Star is implemented in [Rust](https://www.rust-lang.org) and can simply be build using [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html):
